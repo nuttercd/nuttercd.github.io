@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+html {
+    font-family: Muli;
+}
+
+
+/* Footer */
+
+.social a {
+    font-size: 1.5em;
+    padding: 1.5rem;
+}
+
+.fa-twitter {
+    color: #26a7de;
+}
+
+.fa-github {
+    color: #171515;
+}
+
+.fa-instagram {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    line-height: 70px;
+    background: #d6249f;
+    vertical-align: middle;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+.fa-twitter:hover,
+.fa-github:hover,
+.fa-instagram:hover {
+    color: #e4e4e4;
+}
+
+hr.light {
+    border-top: 1px solid #e4e4e4;
+    width: 50%;
+    margin-top: 0.6rem;
+    margin-bottom: 0.1rem;
+}
