@@ -4,6 +4,38 @@ html {
 }
 
 
+/* Nav Bar */
+
+.navbar {
+    min-height: 120px;
+}
+
+.navbar-nav>li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logo-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    margin-left: 125px;
+    margin-right: 70px;
+}
+
+
+/* Bio */
+
+div.im-cole {
+    text-align: center;
+    padding-top: 50px;
+}
+
+div.im-cole-sub {
+    text-align: center;
+}
+
+
 /* Footer */
 
 .social a {
