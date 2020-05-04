@@ -45,9 +45,15 @@ div.im-cole-sub {
 
 /* Resume */
 
-div.resume {
+div.resume-header {
     text-align:center;
-    padding-top:100px;
+    padding-top: 25px;
+    text-underline-position: below;
+}
+
+div.resume-body {
+    text-align:center;
+
 }
 
 /* Footer */
