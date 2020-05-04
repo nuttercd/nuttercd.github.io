@@ -36,6 +36,13 @@ div.im-cole-sub {
 }
 
 
+/* Resume */
+
+div.resume {
+    text-align:center;
+    padding-top:50px;
+}
+
 /* Footer */
 
 .social a {
