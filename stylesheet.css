@@ -3,11 +3,21 @@ html {
     font-family: Muli;
 }
 
+body {
+    color: white;
+    background: url("img/charcoal-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 /* Nav Bar */
 
 .navbar {
     min-height: 120px;
+    color: white;
 }
 
 .navbar-nav>li {
@@ -23,11 +33,13 @@ html {
     margin-right: 70px;
 }
 
+
 /* Index */
 
 div.front-page {
     text-align: center;
     padding: 100px;
+    padding-bottom: 100px;
 }
 
 
@@ -46,15 +58,15 @@ div.im-cole-sub {
 /* Resume */
 
 div.resume-header {
-    text-align:center;
+    text-align: center;
     padding-top: 25px;
     text-underline-position: below;
 }
 
 div.resume-body {
-    text-align:center;
-
+    text-align: center;
 }
+
 
 /* Footer */
 
