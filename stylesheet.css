@@ -21,11 +21,13 @@ body {
 }
 
 .navbar-nav>li {
+    color: white;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .logo-image {
+    color: white;
     width: 70px;
     height: 70px;
     border-radius: 20%;
