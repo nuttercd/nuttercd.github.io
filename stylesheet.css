@@ -1,72 +1,37 @@
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
-html {
-    font-family: Muli;
-}
-
 body {
-    background: url("img/charcoal-background.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: #2c2c30;
     color: white;
-}
-
-
-/* Nav Bar */
-
-.navbar {
-    min-height: 120px;
-    color: white;
-}
-
-.navbar-nav>li {
-    color: white;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.logo-image {
-    color: white;
-    width: 70px;
-    height: 70px;
-    border-radius: 20%;
-    margin-left: 125px;
-    margin-right: 70px;
 }
 
 
 /* Index */
 
-div.front-page {
-    text-align: center;
-    padding: 100px;
-    padding-bottom: 100px;
-}
-
-
-/* Bio */
-
-div.im-cole {
-    text-align: center;
+header {
     padding-top: 50px;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
 }
 
-div.im-cole-sub {
-    text-align: center;
+header h1 {
+    padding-top: 35px;
 }
 
-
-/* Resume */
-
-div.resume-header {
-    text-align: center;
-    padding-top: 25px;
-    text-underline-position: below;
+header img {
+    border-radius: 170px;
+    width: 300px;
 }
 
-div.resume-body {
+div.about-header {
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+div.about {
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 100px;
+    font-family: 'Source Code Pro', monospace;
 }
 
 
@@ -86,18 +51,13 @@ div.resume-body {
 }
 
 .fa-instagram {
-    display: inline-block;
-    width: 27px;
-    height: 27px;
-    border-radius: 30px;
-    text-align: center;
-    color: #fff;
-    font-size: 35px;
-    line-height: 70px;
-    background: #d6249f;
-    vertical-align: middle;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+    color: #c13584;
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    /* change this to change the size*/
 }
 
 .fa-twitter:hover,
