@@ -30,8 +30,24 @@ div.about-header {
 div.about {
     text-align: center;
     padding: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 25px;
     font-family: 'Source Code Pro', monospace;
+}
+
+div.information-technology-header {
+    padding-top: 20px;
+    text-align: center;
+}
+
+div.information-technology {
+    text-align: center;
+    padding-top: 55px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+div.gallery {
+    text-align: center;
+    padding-top: 55px;
 }
 
 
