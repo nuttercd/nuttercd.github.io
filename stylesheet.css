@@ -25,9 +25,10 @@ body {
     text-align: center;
     padding-top: 100px;
     padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
-p.about {
+.index p.about {
     text-align: center;
     padding: 50px;
     padding-bottom: 25px;
@@ -48,6 +49,7 @@ p.about {
 
 
 /* Footer */
+
 
 .social a {
     font-size: 1.5em;
