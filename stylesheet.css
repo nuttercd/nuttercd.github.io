@@ -6,17 +6,17 @@ body {
 
 /* Index */
 
-header {
+.index header {
     padding-top: 50px;
     text-align: center;
     font-family: 'Rock Salt', cursive;
 }
 
-header h1 {
+.index header h1 {
     padding-top: 35px;
 }
 
-header img {
+.index header img {
     border-radius: 170px;
     width: 300px;
 }
@@ -49,6 +49,8 @@ div.gallery {
     text-align: center;
     padding-top: 55px;
 }
+
+/* Blog */
 
 
 /* Footer */
