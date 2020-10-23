@@ -21,33 +21,27 @@ body {
     width: 300px;
 }
 
-div.about-header {
+.index h2 {
     text-align: center;
     padding-top: 100px;
     padding-bottom: 20px;
 }
 
-div.about {
+p.about {
     text-align: center;
     padding: 50px;
     padding-bottom: 25px;
     font-family: 'Source Code Pro', monospace;
 }
 
-div.information-technology-header {
+.index h3 {
     padding-top: 20px;
     text-align: center;
 }
-
-div.information-technology {
+.information-technology {
     text-align: center;
     padding-top: 55px;
     font-family: 'Source Code Pro', monospace;
-}
-
-div.gallery {
-    text-align: center;
-    padding-top: 55px;
 }
 
 /* Blog */
