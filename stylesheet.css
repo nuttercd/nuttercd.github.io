@@ -50,7 +50,13 @@ body {
     .blog-container{
         color: black;
         padding: 20px;
+        
     }
+    a:link {
+        color:black;
+        text-decoration: none;
+    }
+       
 
     
 /* Footer */
