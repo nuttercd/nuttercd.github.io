@@ -6,19 +6,17 @@ body {
 
 /* Index */
 
-.index header {
-  padding-top: 50px;
-  text-align: center;
-  font-family: "Rock Salt";
-}
 
 .index header h1 {
   padding-top: 35px;
+  text-align: center;
+  font-family: "Rock Salt";
 }
 
 .index header img {
   border-radius: 170px;
   width: 300px;
+  
 }
 
 .index h2 {
