@@ -48,8 +48,6 @@ body {
 /* Blog */
     .blog-container{
         color: black;
-        display: flex;
-        justify-content: center;
         
     }
     .blog-container a:link {
