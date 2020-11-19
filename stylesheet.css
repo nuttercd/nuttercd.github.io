@@ -46,13 +46,6 @@ body {
 /* Blog */
     .blog-container{
         color: black;
-<<<<<<< HEAD
-        display: flex;
-        justify-content: center;
-        
-        
-=======
->>>>>>> 588be96c359265b9373a9b7f3dcf18b1f1d32a4f
         
     }
     .blog-container a:link {
@@ -62,14 +55,8 @@ body {
     .blog-container a:visited {
         color:black;
         text-decoration: none;
-<<<<<<< HEAD
-    }
-    
-    
-=======
     }     
 
->>>>>>> 588be96c359265b9373a9b7f3dcf18b1f1d32a4f
 /* Footer */
 
 footer {
