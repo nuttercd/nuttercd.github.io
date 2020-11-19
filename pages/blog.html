@@ -1,112 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Import bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" S />
     <!-- Import stylesheet.css-->
-    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="stylesheet" href="../stylesheet.css" />
     <!-- Allows for special social media icons -->
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <title>A Nutter Website - Blog</title>
 </head>
 
-    
-<!-- Body -->
-<body class="blog">
-    <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="/index.html">A Nutter Website</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/pages/blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/pages/gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/pages/resume.html">Resume</a>
-            </li>
-        </ul>
-        </div>
-    </nav>
+<body>
     <header>
-        <h1>Blog</h1>
+        
+            <!--Nav Bar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/index.html">A Nutter Website</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/resume.html">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <h1>Blog</h1>
     </header>
-
 
     <main class="blog-container">
         <div class="row">
             
-            <article class="article1 col mx-5">
-                <div class="card" style="width: 20rem; height: 16rem">
-                    <img class="card-img-top" src="/img/9-cybersecurity-solutions-for-small-business.png" alt="Card image cap">
-                    <div class="card-body">
-                    <h5 class="card-title">Article 1</h5>
-                    <p class="card-text">Testing 1</p>
+            <article class="article1 col-4">
+                <a href="articles/testarticle.html">
+                    <div class="card px-2">
+                        <img class="card-img-top" src="/img/9-cybersecurity-solutions-for-small-business.png"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Article 1</h5>
+                            <p class="card-text">Testing 1</p>
+                        </div>
                     </div>
-                </div>
+                </a>
+                
             </article>
         
             
-                <article class="article2 col mx-5">
-                    <div class="card" style="width: 20rem; height: 16rem">
+                <article class="article2 col-4">
+                    <div class="card px-2">
                         <img class="card-img-top" src="/img/9-cybersecurity-solutions-for-small-business.png" alt="Card image cap">
                         <div class="card-body">
                         <h5 class="card-title">Article 2</h5>
                         <p class="card-text">Test Article 2</p>
-                        </div>
                     </div>
                 
             
                 </article>
             
-            <article class="article3 col mx-5">
-                <div class="card" style="width: 20rem; height: 16rem">
-                    <img class="card-img-top" src="/img/9-cybersecurity-solutions-for-small-business.png" alt="Card image cap">
+            <article class="article3 col-4">
+                <div class="card px-2">
+                    <img class="card-img-top" src="/img/9-cybersecurity-solutions-for-small-business.png"
+                        alt="Card image cap" />
                     <div class="card-body">
-                    <h5 class="card-title">Article 3</h5>
-                    <p class="card-text"></p>
+                        <h5 class="card-title">Article 3</h5>
+                        <p class="card-text">Test Article 3</p>
                     </div>
-                    </div>
-                
-                
+                </div>
             </article>
-            
+
         </div>
-        
-        
     </main>
 
-
     <!--Footer-->
-    
+
     <footer>
-        <div class="container-fluid padding ">
-            <div class="row text-center ">
-                <div class="col-12 social ">
-                    <a href="https://twitter.com/nuttercd "><i class="fab fa-twitter "></i></a>
-                    <a href="https://github.com/nuttercd "><i class="fab fa-github "></i></a>
-                    <a href="https://instagram.com/nuttercd "><i class="fab fa-instagram "></i></a>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-12 social">
+                    <a href="https://twitter.com/nuttercd "><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/nuttercd "><i class="fab fa-github"></i></a>
+                    <a href="https://instagram.com/nuttercd "><i class="fab fa-instagram"></i></a>
                 </div>
 
-                <div class="col-12 ">
-                    <hr class="light ">
-                    <p class="text-center " style="padding-top: 1em ">© Cole Nutter 2020</p>
+                <div class="col-12">
+                    <hr class="light" />
+                    <p class="text-center" style="padding-top: 1em">
+                        © Cole Nutter 2020
+                    </p>
                 </div>
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
