@@ -57,6 +57,12 @@ body {
         text-decoration: none;
     }     
 
+    .blog-header h1{
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
   /* Resume */
   .resume-header h1{
     text-align: center;
