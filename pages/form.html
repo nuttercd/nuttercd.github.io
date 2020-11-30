@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +8,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Import stylesheet.css-->
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="../stylesheet.css">
     <!-- Allows for special social media icons -->
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <!-- Import Rock Salt  -->
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-    <!-- Import Source Code Pro Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <title>A Nutter Website</title>
+    <title>A Nutter Website - Gallery</title>
 </head>
 
 
+<body>
 
-<!-- Body -->
-
-<body class="index">
-
-    <!-- Header -->
-    <header>
+    <header class="form-header">
         
             <!--Nav Bar-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -52,53 +43,42 @@
                     </ul>
                 </div>
             </nav>
-        <div class="text-center pt-3">
-            <img src="img/Cole_Head.jpg" aria-label="Cole Nutter Profile Picture">
-            <h1>Cole Nutter</h1>
-        </div>
-        
+            <h1>Article Form</h1>
+            <hr class="light" />
     </header>
 
-    <!-- Main Element -->
     <main>
-        <h2>About</h2>
+        <form>
+            <div class="form-group w-50 pl-5">
+                <label for="articleTitle">Article Title</label>
+                <textarea class="form-control" type="text" id="articleTitle" rows="1"></textarea>
+            </div>
+            <div class="form-group w-75 pl-5">
+                <label for="articleText">Text</label>
+                <textarea class="form-control" type="text" id="articleTitle" rows="25"></textarea>
+            </div>
 
-        <p class="about">
-            Hi, I'm Cole! Welcome to my website that I coded myself! Although It's still a W.I.P. I'm currently studying
-            Information Technology at James Madison University. I am Vice President of the JMUnixUsers Club and Men's
-            Team Captain of JMU's Gymnastic's Club.
-        </p>
-
-        <h3>Information Technology</h3>
-
-        <p class="information-technology"> I am the first IT major at JMU. I was originally a CS major until I found out
-            that there were plans for creating a new IT major that seemed to be more focused on what I want to do. This
-            includes Cyber Security, Networking, and Web Design.</p>
-
-
+        </form>
     </main>
 
-
     <!--Footer-->
-    <footer>
-        <div class="container-fluid padding">
-            <div class="row text-center">
-                <div class="col-12 social">
-                    <a href="https://twitter.com/nuttercd "><i class="fab fa-twitter"></i></a>
-                    <a href="https://github.com/nuttercd "><i class="fab fa-github"></i></a>
-                    <a href="https://instagram.com/nuttercd "><i class="fab fa-instagram"></i></a>
+
+    <footer class="footer">
+        <div class="container-fluid padding ">
+            <div class="row text-center ">
+                <div class="col-12 social ">
+                    <a href="https://twitter.com/nuttercd "><i class="fab fa-twitter "></i></a>
+                    <a href="https://github.com/nuttercd "><i class="fab fa-github "></i></a>
+                    <a href="https://instagram.com/nuttercd "><i class="fab fa-instagram "></i></a>
                 </div>
-                
-                <div class="col-12">
-                    <hr class="light" />
-                    <p class="text-center" style="padding-top: 1em">
-                        © Cole Nutter 2020
-                    </p>
+
+                <div class="col-12 ">
+                    <hr class="light ">
+                    <p class="text-center " style="padding-top: 1em ">© Cole Nutter 2020</p>
                 </div>
             </div>
         </div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -109,6 +89,5 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
-
 
 </html>
