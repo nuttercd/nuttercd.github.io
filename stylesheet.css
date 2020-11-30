@@ -57,6 +57,16 @@ body {
         text-decoration: none;
     }     
 
+  /* Resume */
+  .resume-header h1{
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .resume main p {
+    text-align: center;
+  }
+
 /* Footer */
 
 footer {
