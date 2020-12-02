@@ -1,12 +1,30 @@
 "use strict";
-
+let data = {'articles':[]};
 
 function saveArticle() {
-
-    form = document.querySelectorAll(".articleForm")
-    article = {"title":document.querySelectorAll(".articleTitle").value, "text":document.querySelectorAll(".articleText").value};
+    
+    try {
+        let storedData = 
+            JSON.parse(localStorage.getItem('articleData'));
+        if (storedData !== null) {
+            data = storedData;
+            console.log()
+            }
+            else {
+                console.log("No Text");
+        } 
+        }
+        catch {}
+    
 
 }
 
-let saveButton = document.querySelectorAll(".button-save-article");
+$('#button-save-article').click(() => {
+    form = document.querySelectorAll(".articleForm");
+    let articleTitle = form.querySelectorAll('#articleTitle');
+    let articleText = form.querySelectorAll('#articleText');
+    data.articles.push(articleTitle);
+    data.articles.push(articleText);
+    localStorage.setItem('articleData', JSON.stringify(data));
+});
 saveButton.addEventListener("click", saveArticle());
