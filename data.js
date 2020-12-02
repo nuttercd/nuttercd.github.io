@@ -26,5 +26,6 @@ $('#button-save-article').click(() => {
     data.articles.push(articleTitle);
     data.articles.push(articleText);
     localStorage.setItem('articleData', JSON.stringify(data));
+    saveArticle();
 });
 saveButton.addEventListener("click", saveArticle());
