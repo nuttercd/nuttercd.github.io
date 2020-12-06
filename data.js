@@ -30,6 +30,8 @@ $('#button-save-article').click(() => {
         data.articles.push(item);
         localStorage.setItem('articleData', JSON.stringify(data));
     }
+    form.articleTitle = '';
+    form.articleText = '';
     saveArticle();
 });
 
