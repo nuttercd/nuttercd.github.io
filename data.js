@@ -34,7 +34,8 @@ $('#button-save-article').click(() => {
 });
 
 function addArticle(){
-    let articleList = document.querySelector('#article-cards')
+    let articleList = document.querySelector('#article-cards');
+    
     
 }
 
