@@ -20,7 +20,7 @@ function saveArticle() {
 }
 
 $('#button-save-article').click(() => {
-    form = document.querySelectorAll(".articleForm");
+    let form = document.querySelectorAll(".articleForm");
     let articleTitleEntry = form.articleTitle.value;
     let articleTextEntry = form.articleText.value;
     if (articleTextEntry !== '' && articleTitleEntry !== ''){
