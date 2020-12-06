@@ -8,7 +8,7 @@ function saveArticle() {
             JSON.parse(localStorage.getItem('articleData'));
         if (storedData !== null) {
             data = storedData;
-            console.log()
+            console.log("You added data")
             }
             else {
                 console.log("No Text");
@@ -21,11 +21,21 @@ function saveArticle() {
 
 $('#button-save-article').click(() => {
     form = document.querySelectorAll(".articleForm");
-    let articleTitle = form.querySelectorAll('#articleTitle');
-    let articleText = form.querySelectorAll('#articleText');
-    data.articles.push(articleTitle);
-    data.articles.push(articleText);
-    localStorage.setItem('articleData', JSON.stringify(data));
+    let articleTitleEntry = form.articleTitle.value;
+    let articleTextEntry = form.articleText.value;
+    if (articleTextEntry !== '' && articleTitleEntry !== ''){
+        let item = {};
+        item.articleTitle = articleTitleEntry;
+        item.articleText = articleTextEntry;
+        data.articles.push(item);
+        localStorage.setItem('articleData', JSON.stringify(data));
+    }
     saveArticle();
 });
-saveButton.addEventListener("click", saveArticle());
+
+function addArticle(){
+    let articleList = document.querySelector('#article-cards')
+    
+}
+
+
