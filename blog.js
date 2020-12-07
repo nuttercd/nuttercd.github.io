@@ -16,7 +16,6 @@ function addArticle(storedData){
     let articleList = document.querySelector('#article-cards');
     
     for (let article in storedData.articles){
-        console.log("Loopy loop");
         let newCardArticle = document.createElement("article");
         newCardArticle.classList.add("col-4");
         let newCardDiv = document.createElement("div");
