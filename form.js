@@ -1,7 +1,7 @@
 "use strict";
 let data = {'articles':[]};
 
-function saveArticle() {
+function loadArticles() {
     
     try {
         let storedData = 
@@ -20,7 +20,8 @@ function saveArticle() {
 }
 
 $('#button-save-article').click(() => {
-    let form = document.querySelectorAll(".articleForm");
+    loadArticles();
+    let form = document.getElementById("articleForm");
     let articleTitleEntry = form.articleTitle.value;
     let articleTextEntry = form.articleText.value;
     if (articleTextEntry !== '' && articleTitleEntry !== ''){
@@ -30,15 +31,11 @@ $('#button-save-article').click(() => {
         data.articles.push(item);
         localStorage.setItem('articleData', JSON.stringify(data));
     }
-    form.articleTitle = '';
-    form.articleText = '';
-    saveArticle();
+    form.articleTitle.value = '';
+    form.articleText.value = '';
+    window.location.href = "blog.html";
 });
 
-function addArticle(){
-    let articleList = document.querySelector('#article-cards');
-    
-    
-}
+
 
 
