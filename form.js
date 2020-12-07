@@ -8,7 +8,6 @@ function loadArticles() {
             JSON.parse(localStorage.getItem('articleData'));
         if (storedData !== null) {
             data = storedData;
-            console.log("You added data")
             }
             else {
                 console.log("No Text");
