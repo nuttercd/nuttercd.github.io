@@ -103,7 +103,6 @@ footer {
   color: #c13584;
   -webkit-background-clip: text;
   /* Also define standard property for compatibility */
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 25px;
   /* change this to change the size*/
